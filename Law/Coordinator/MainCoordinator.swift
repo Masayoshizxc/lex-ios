@@ -23,4 +23,11 @@ class MainCoordinator: Coordinator {
         self.navigationController.pushViewController(vc, animated: true)
     }
     
+    func goTabbar() {
+        let child = TabBarCoordinator(navigationController: navigationController)
+        childCoordinators.append(child)
+        child.parentCoordinator = self
+        child.start()
+    }
+    
 }

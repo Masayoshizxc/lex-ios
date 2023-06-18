@@ -11,7 +11,8 @@ class BlueTextField: UITextField {
     var forPlaceHolder = ""
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = UIColor(red: 57/255, green: 130/255, blue: 191/255, alpha: 1)
+//        backgroundColor = UIColor(red: 57/255, green: 130/255, blue: 191/255, alpha: 1)
+        backgroundColor = .white
         
         font = .systemFont(ofSize: 15)
 //        tintColor = .white

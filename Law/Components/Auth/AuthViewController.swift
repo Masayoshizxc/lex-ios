@@ -27,7 +27,7 @@ class AuthViewController: BaseViewController {
     
     private lazy var logView: UIView = {
         let v = UIView()
-        v.backgroundColor = .white
+        v.backgroundColor = .lightGray
         v.layer.cornerRadius = 40
         
         return v
@@ -53,18 +53,18 @@ class AuthViewController: BaseViewController {
         let l = UILabel()
         l.text = "Log in"
         l.font = .boldSystemFont(ofSize: 30)
-        l.textColor = UIColor(red: 57/255, green: 130/255, blue: 191/255, alpha: 1)
+        l.textColor = .white
         return l
     }()
     private lazy var emailField: BlueTextField = {
         let t = BlueTextField()
-        t.attributedPlaceholder = NSAttributedString(string: "\tEmail", attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
+        t.attributedPlaceholder = NSAttributedString(string: "\tEmail", attributes: [NSAttributedString.Key.foregroundColor: UIColor.clickedGray])
         
         return t
     }()
     private lazy var passwordField: BlueTextField = {
         let t = BlueTextField()
-        t.attributedPlaceholder = NSAttributedString(string: "\tPassword", attributes: [NSAttributedString.Key.foregroundColor: UIColor.white])
+        t.attributedPlaceholder = NSAttributedString(string: "\tPassword", attributes: [NSAttributedString.Key.foregroundColor: UIColor.clickedGray])
         
         return t
     }()
@@ -72,8 +72,8 @@ class AuthViewController: BaseViewController {
         let b = UIButton()
         b.setTitle("Log in", for: .normal)
         b.titleLabel?.font = .boldSystemFont(ofSize: 15)
-        b.setTitleColor(UIColor(red: 57/255, green: 130/255, blue: 191/255, alpha: 1), for: .normal)
-        b.backgroundColor = .white
+        b.setTitleColor(.white, for: .normal)
+        b.backgroundColor = .lightGray
         b.layer.cornerRadius = 20
         b.addTarget(self, action: #selector(logTap), for: .touchUpInside)
         return b
@@ -82,14 +82,15 @@ class AuthViewController: BaseViewController {
         let b = UIButton()
         b.backgroundColor = .none
         b.setTitle("You don’t have an account? Click here", for: .normal)
-        b.setTitleColor(.white, for: .normal)
+        b.setTitleColor(.lightGray, for: .normal)
         b.titleLabel?.font = .systemFont(ofSize: 15)
         return b
     }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.layer.insertSublayer(viewBackground, at: 0)
+//        view.layer.insertSublayer(viewBackground, at: 0)
+        
         setupSubviews()
         setupConstraints()
 //        for family in UIFont.familyNames {
@@ -101,8 +102,9 @@ class AuthViewController: BaseViewController {
 //        }
     }
     @objc func logTap() {
-        getUser()
+//        getUser()
 //        createUser()
+        coordinator?.goTabbar()
     }
     
     func createUser() {

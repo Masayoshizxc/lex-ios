@@ -18,6 +18,17 @@
 		AE0CD0B32A3AFD8E004AEB1C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0CD0B22A3AFD8E004AEB1C /* BaseViewController.swift */; };
 		AE0CD0B92A3AFECD004AEB1C /* Extension + ColorDarkLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0CD0B82A3AFECD004AEB1C /* Extension + ColorDarkLight.swift */; };
 		AE0CD0BB2A3B08B5004AEB1C /* BlueTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0CD0BA2A3B08B5004AEB1C /* BlueTextField.swift */; };
+		AEEE4E352A3E5BCE004B3E97 /* Extension + Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE4E342A3E5BCE004B3E97 /* Extension + Color.swift */; };
+		AEEE4E382A3E5F4C004B3E97 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE4E372A3E5F4C004B3E97 /* TabBarController.swift */; };
+		AEEE4E3A2A3E62E3004B3E97 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE4E392A3E62E3004B3E97 /* TabBarCoordinator.swift */; };
+		AEEE4E402A3E63A3004B3E97 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE4E3F2A3E63A3004B3E97 /* HomeCoordinator.swift */; };
+		AEEE4E422A3E640F004B3E97 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE4E412A3E640F004B3E97 /* HomeViewController.swift */; };
+		AEEE4E442A3E6579004B3E97 /* ResponseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE4E432A3E6579004B3E97 /* ResponseCoordinator.swift */; };
+		AEEE4E462A3E65E4004B3E97 /* ResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE4E452A3E65E4004B3E97 /* ResponseViewController.swift */; };
+		AEEE4E482A3E66E9004B3E97 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE4E472A3E66E9004B3E97 /* ProfileCoordinator.swift */; };
+		AEEE4E4A2A3EA99D004B3E97 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE4E492A3EA99D004B3E97 /* ProfileViewController.swift */; };
+		AEEE4E4D2A3EB45E004B3E97 /* LawyerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE4E4C2A3EB45E004B3E97 /* LawyerModel.swift */; };
+		AEEE4E502A3EB7C9004B3E97 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEE4E4F2A3EB7C8004B3E97 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +46,17 @@
 		AE0CD0B22A3AFD8E004AEB1C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		AE0CD0B82A3AFECD004AEB1C /* Extension + ColorDarkLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + ColorDarkLight.swift"; sourceTree = "<group>"; };
 		AE0CD0BA2A3B08B5004AEB1C /* BlueTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueTextField.swift; sourceTree = "<group>"; };
+		AEEE4E342A3E5BCE004B3E97 /* Extension + Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Color.swift"; sourceTree = "<group>"; };
+		AEEE4E372A3E5F4C004B3E97 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		AEEE4E392A3E62E3004B3E97 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		AEEE4E3F2A3E63A3004B3E97 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		AEEE4E412A3E640F004B3E97 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AEEE4E432A3E6579004B3E97 /* ResponseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseCoordinator.swift; sourceTree = "<group>"; };
+		AEEE4E452A3E65E4004B3E97 /* ResponseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseViewController.swift; sourceTree = "<group>"; };
+		AEEE4E472A3E66E9004B3E97 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		AEEE4E492A3EA99D004B3E97 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AEEE4E4C2A3EB45E004B3E97 /* LawyerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LawyerModel.swift; sourceTree = "<group>"; };
+		AEEE4E4F2A3EB7C8004B3E97 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		E3079FDEC87C5387396A8D87 /* Pods-Law.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Law.debug.xcconfig"; path = "Target Support Files/Pods-Law/Pods-Law.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +103,7 @@
 			children = (
 				AE0658492A3AF33C009B31DA /* AppDelegate.swift */,
 				AE06584B2A3AF33C009B31DA /* SceneDelegate.swift */,
+				AEEE4E362A3E5F3F004B3E97 /* TabBar */,
 				AE0CD0B72A3AFEBE004AEB1C /* Extensions */,
 				AE0CD0B52A3AFE4A004AEB1C /* Components */,
 				AE0CD0B12A3AFD79004AEB1C /* Reusable */,
@@ -97,6 +120,7 @@
 			children = (
 				AE06585E2A3AF3FE009B31DA /* Coordinator.swift */,
 				AE0CD0AF2A3AFCEB004AEB1C /* MainCoordinator.swift */,
+				AEEE4E392A3E62E3004B3E97 /* TabBarCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -113,6 +137,9 @@
 		AE0CD0B52A3AFE4A004AEB1C /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				AEEE4E3E2A3E6390004B3E97 /* Profile */,
+				AEEE4E3D2A3E6389004B3E97 /* Response */,
+				AEEE4E3C2A3E6382004B3E97 /* Home */,
 				AE0CD0B62A3AFE4E004AEB1C /* Auth */,
 			);
 			path = Components;
@@ -130,8 +157,62 @@
 			isa = PBXGroup;
 			children = (
 				AE0CD0B82A3AFECD004AEB1C /* Extension + ColorDarkLight.swift */,
+				AEEE4E342A3E5BCE004B3E97 /* Extension + Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AEEE4E362A3E5F3F004B3E97 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE4E372A3E5F4C004B3E97 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		AEEE4E3C2A3E6382004B3E97 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE4E3F2A3E63A3004B3E97 /* HomeCoordinator.swift */,
+				AEEE4E412A3E640F004B3E97 /* HomeViewController.swift */,
+				AEEE4E4E2A3EB7B1004B3E97 /* Cell */,
+				AEEE4E4B2A3EB452004B3E97 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AEEE4E3D2A3E6389004B3E97 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE4E432A3E6579004B3E97 /* ResponseCoordinator.swift */,
+				AEEE4E452A3E65E4004B3E97 /* ResponseViewController.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		AEEE4E3E2A3E6390004B3E97 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE4E472A3E66E9004B3E97 /* ProfileCoordinator.swift */,
+				AEEE4E492A3EA99D004B3E97 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AEEE4E4B2A3EB452004B3E97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE4E4C2A3EB45E004B3E97 /* LawyerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEEE4E4E2A3EB7B1004B3E97 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AEEE4E4F2A3EB7C8004B3E97 /* TableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		D1481DF75AD86DB15CA47F5A /* Pods */ = {
@@ -258,12 +339,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE06585F2A3AF3FE009B31DA /* Coordinator.swift in Sources */,
+				AEEE4E442A3E6579004B3E97 /* ResponseCoordinator.swift in Sources */,
 				AE06584E2A3AF33C009B31DA /* AuthViewController.swift in Sources */,
 				AE06584A2A3AF33C009B31DA /* AppDelegate.swift in Sources */,
+				AEEE4E502A3EB7C9004B3E97 /* TableViewCell.swift in Sources */,
+				AEEE4E462A3E65E4004B3E97 /* ResponseViewController.swift in Sources */,
+				AEEE4E382A3E5F4C004B3E97 /* TabBarController.swift in Sources */,
 				AE0CD0B02A3AFCEB004AEB1C /* MainCoordinator.swift in Sources */,
+				AEEE4E4A2A3EA99D004B3E97 /* ProfileViewController.swift in Sources */,
+				AEEE4E402A3E63A3004B3E97 /* HomeCoordinator.swift in Sources */,
+				AEEE4E482A3E66E9004B3E97 /* ProfileCoordinator.swift in Sources */,
+				AEEE4E352A3E5BCE004B3E97 /* Extension + Color.swift in Sources */,
+				AEEE4E3A2A3E62E3004B3E97 /* TabBarCoordinator.swift in Sources */,
 				AE06584C2A3AF33C009B31DA /* SceneDelegate.swift in Sources */,
+				AEEE4E4D2A3EB45E004B3E97 /* LawyerModel.swift in Sources */,
 				AE0CD0B32A3AFD8E004AEB1C /* BaseViewController.swift in Sources */,
 				AE0CD0B92A3AFECD004AEB1C /* Extension + ColorDarkLight.swift in Sources */,
+				AEEE4E422A3E640F004B3E97 /* HomeViewController.swift in Sources */,
 				AE0CD0BB2A3B08B5004AEB1C /* BlueTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
